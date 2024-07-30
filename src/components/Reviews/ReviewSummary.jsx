@@ -40,6 +40,7 @@ export async function GeminiSummary({ restaurantId }) {
           </div>
       );
   } catch (e) {
+    debugger;
       console.error(e);
       return <p>Error contacting Gemini</p>;
   }
